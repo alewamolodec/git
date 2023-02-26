@@ -1,3 +1,5 @@
+import java.sql.Time;
+import java.time.LocalTime;
 import java.time.Year;
 
 public class Main {
@@ -11,5 +13,7 @@ public class Main {
         }
         System.out.println("Dady");
         System.out.println(Year.now());
+        System.out.println(Time.valueOf(LocalTime.now()));
     }
+
 }
